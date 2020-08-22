@@ -1,12 +1,18 @@
 {
-  "name": "imooc-typescript",
+  "name": "typescript-tutorial",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript 教程",
   "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "TypeScript",
+    "TypeScript Tutorial",
+    "TypeScript 教程"
+  ],
+  "author": {
+    "name": "若非",
+    "email": "rf.wangchn@gmail.com"
+  },
+  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
