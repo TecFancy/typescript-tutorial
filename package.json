@@ -2,7 +2,10 @@
   "name": "typescript-tutorial",
   "version": "1.0.0",
   "description": "TypeScript 教程",
-  "scripts": {},
+  "scripts": {
+    "compiler": "tsc ./src/index.ts --outDir dist",
+    "dev": "nodemon -e ts --exec ts-node ./src/index.ts"
+  },
   "keywords": [
     "TypeScript",
     "TypeScript Tutorial",
@@ -27,6 +30,7 @@
   "devDependencies": {
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
