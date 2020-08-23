@@ -23,8 +23,7 @@
   },
   "lint-staged": {
     "src/**": [
-      "prettier --config .prettierrc --write",
-      "git add"
+      "prettier --config .prettierrc --write"
     ]
   },
   "devDependencies": {
